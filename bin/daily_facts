@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+require_relative '../lib/daily_facts'
+
+DailyFacts::CLI.new.call
